@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Book List!</title>
+</head>
+<body>
+  <div class="container">
+    <h1>STPI BOOK LIST</h1>
+    <div class="form">
+      <form>
+        <input type="text" id="bookName" placeholder="Book Name" class="input" required>
+        <input type="text" id="author" placeholder="Author" class="input" required>
+        <input type="number" id="bookId" placeholder="Book id" class="input" required>
+        <input type="submit" value="Add Book" id="submit">
+      </form>
+    </div>
+    <div class="table">
+      <table>
+        
+        <tr>
+          <th>Book Name</th>
+          <th>Author</th>
+          <th>Book ID</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Book 1</td>
+          <td>John Doe</td>
+          <td>1</td>
+          <td><button class="remove">remove</button></td>
+        </tr>
+        <tr>
+          <td>Book 2</td>
+          <td>Oscar Wilde</td>
+          <td>2</td>
+          <td><button class="remove">remove</button></td>
+        </tr>
+      
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
